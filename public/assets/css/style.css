@@ -1,0 +1,390 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+element.style {
+}
+.navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+a {
+    color: #0d6efd;
+    text-decoration: underline;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+body {
+    line-height: 1;
+}
+body {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+:root {
+    --bg-nso: rgb(255, 115, 0);
+}
+
+.post {
+    margin-top: 25px;
+    width: 100%;
+    overflow: hidden;
+    min-height: 400px;
+}
+
+.post img {
+    padding: 5px 5px;
+    width: 100%;
+}
+
+.content {
+    min-height: 500px;
+}
+
+.news-image {
+    width: 100%;
+}
+
+.news-image img {
+    width: 100%;
+}
+
+.news-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+    word-wrap: break-word;
+}
+
+.detail-title {
+    margin-bottom: 20px;
+}
+
+.detail-content {
+    padding: 10px 30px;
+
+}
+
+.detail-title h3 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+}
+
+.news-title a {
+    color: #000;
+    text-decoration: none;
+}
+.news-title :hover {
+    color: rgb(255, 115, 0);
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.5rem;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+.mobile-menu .navbar-nav .nav-item {
+    display: inline-block;
+    width: 100%;
+}
+
+.bg-nso {
+    background-color: var(--bg-nso);
+}
+
+.btn-nso {
+    color: #fff;
+    background-color: var(--bg-nso);
+    border-color: var(--bg-nso);
+}
+
+.btn-nso:hover {
+    color: #fff;
+    background-color: rgb(214, 96, 0);
+    border-color: rgb(214, 96, 0);
+}
+
+.mark {
+    font-weight: 600;
+    background-color: #fff;
+}
+
+.note {
+    font-size: 0.9rem;
+}
+
+.text-bg-nso,
+.text-bg-nso a{
+    color: #fff;
+}
+
+.text-bg-nso a:hover,
+.text-bg-nso a.show{
+    color: rgb(0, 33, 54);
+}
+
+.text-bg-nso .navbar-brand.logo {
+    font-family: 'Bungee', cursive;
+}
+
+.text-bg-nso .dropdown-menu a {
+    color: #000;
+}
+
+.main {
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.footer-content {
+    padding: 20px 10px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.form-login {
+    padding-bottom: 60px;
+}
+
+.welcome .title,
+.form-login .title ,
+.chuc-nang .title{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.welcome .title h3,
+.form-login .title h3,
+.chuc-nang .title {
+    font-size: 2.0rem;
+    font-weight: 700;
+}
+
+.chuc-nang .content {
+    padding-bottom: 60px;
+}
+
+.welcome .content {
+    padding: 0px 30px;
+    padding-bottom: 70px;
+}
+
+.form-login .content {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.form-login .content .info {
+   text-align: center;
+}
+
+.welcome .content p{
+    line-height: 28px;
+}
+
+.welcome .shortcut {
+    text-align: center;
+}
+
+.welcome .shortcut a{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.btn-login {
+    display: block;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.checkout {
+    text-align: center;
+    padding: 10px 10px;
+}
+
+.checkout p {
+    word-break: break-all;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 5px 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img-webshop {
+    width: 80px;
+    height: 70px;
+}
+
+@media (min-width: 1200px) {
+    .container, 
+    .container-lg, 
+    .container-md, 
+    .container-sm, 
+    .container-xl, 
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+@media (max-width: 991px) {
+    .navbar-expand-lg .navbar-nav {
+        flex-direction:column;
+    }
+    .nav-mn {
+        display: none;
+    }
+    .menu-toggle {
+        display: inline-block;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        padding: 10px 20px;
+        top: 0;
+        right: 0;
+        width: 60%;
+        height: 100%;
+        z-index: 9999;
+        background-color: rgba(133, 133, 133, 1);
+        display: block;
+        transition: -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    
+    .mobile-menu.menu-open {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+
+    .hidden {
+        display: none;
+    }
+    
+    .img-webshop {
+        width: 60px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 416px) {
+    .mobile-menu {
+        position: fixed;
+        padding: 10px 20px;
+        top: 0;
+        right: 0;
+        width: 80%;
+        height: 100%;
+        z-index: 9999;
+        background-color: rgba(133, 133, 133, 1);
+        display: block;
+        transition: -webkit-transform .3s ease-in-out;
+        transition: transform .3s ease-in-out;
+        transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out;
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+    }
+    
+    .mobile-menu.menu-open {
+        transform: translateX(0);
+        -webkit-transform: translateX(0);
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .img-webshop {
+        width: 40px;
+        height: 35px;
+    }
+    
+}
